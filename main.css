@@ -98,6 +98,7 @@ ul > li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: width 0.3s;
 }
 
 .sidebar__hamburger {
@@ -127,11 +128,13 @@ ul > li {
     left: 0;
     width: 100%;
     text-align: center;
+    transition-delay: 0.1s;
 }
 
 .sidebar__menu {
     position: absolute;
     left: -400px;
+    transition: left 0.3s;
 }
 
 .sidebar--opened .sidebar__header {
