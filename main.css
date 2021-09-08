@@ -20,7 +20,7 @@ body {
 
 .wrapper {
     overflow: hidden;
-    min-width: 1310px;
+    min-width: 1440px;
 }
 
 .container {
@@ -354,7 +354,7 @@ ul > li {
 }
 
 .products__item--size-double {
-    width: 600px;
+    width: 620px;
     height: 544px;
 }
 
